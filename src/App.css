@@ -66,6 +66,7 @@ ul > li {
   .section.content {
     width: 100%;
     background: white;
+    margin-top: 100px;
   }
 
   .section.side {
@@ -77,11 +78,23 @@ ul > li {
   }
 
   .mobile-header {
-    display: block;
+    width: 100%;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    /* box-shadow: #16141a; */
+    padding: 30px 60px 20px 60px;
+  }
+
+  .mobile-header-logo {
     background: url("./assets/code_design_logo.svg");
     height: 100px;
     width: 100px;
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
   }
 }
