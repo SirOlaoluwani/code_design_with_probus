@@ -3,9 +3,23 @@
   flex-direction: row;
 }
 
+@media screen and (max-width: 800px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .section {
   min-height: 100vh;
   padding: 60px;
+}
+
+@media screen and (max-width: 800px) {
+  .section {
+    min-height: unset;
+    padding: 20px;
+  }
 }
 
 .section.side {
@@ -15,9 +29,23 @@
   background-position: center;
 }
 
+@media screen and (max-width: 800px) {
+  .section.side {
+    display: none;
+  }
+}
+
 .section.content {
   width: 70%;
   background: white;
+}
+
+@media screen and (max-width: 800px) {
+  .section.content {
+    width: 90%;
+    background: white;
+    margin-top: 150px;
+  }
 }
 
 .logo {
@@ -32,18 +60,29 @@
   display: none;
 }
 
-.content {
-}
-
 .content .description {
   width: 70%;
   line-height: 22.8px;
+}
+
+@media screen and (max-width: 800px) {
+  .content .description {
+    width: 100%;
+  }
 }
 
 #register iframe {
   margin-left: -28px;
   padding: 0px;
   border: 0px;
+}
+
+@media screen and (max-width: 800px) {
+  #register iframe {
+    margin-left: 0;
+    padding: 0px;
+    border: 0px;
+  }
 }
 
 ul {
@@ -55,28 +94,6 @@ ul > li {
 }
 
 @media screen and (max-width: 800px) {
-  .container {
-    flex-direction: column;
-  }
-
-  .section {
-    width: 100% !important;
-    min-height: unset;
-  }
-  .section.content {
-    width: 100%;
-    background: white;
-    margin-top: 100px;
-  }
-
-  .section.side {
-    display: none;
-  }
-
-  .content .description {
-    width: 100%;
-  }
-
   .mobile-header {
     width: 100%;
     background-color: #f1f1f1;
@@ -86,7 +103,7 @@ ul > li {
     position: fixed;
     top: 0;
     /* box-shadow: #16141a; */
-    padding: 30px 60px 20px 60px;
+    padding: 20px 20px 20px 20px;
   }
 
   .mobile-header-logo {

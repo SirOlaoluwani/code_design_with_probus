@@ -1,17 +1,20 @@
 import "./App.css";
-import { Helmet } from "react-helmet";
+import { useWindowSize } from "./utils/useWindowResize";
 
 function App() {
+  const [width] = useWindowSize();
+
+  const getIFrameWidth = () => {
+    if (width <= 380) {
+      return width - 30;
+    }
+    if (width <= 800) {
+      return "370";
+    }
+    return "640";
+  };
   return (
     <>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Code + Design With Probus | Registration</title>
-        <link
-          rel="canonical"
-          href="https://codeanddesign.probusinnovations.com/"
-        />
-      </Helmet>
       <div className="container">
         <div className="section side">
           <div className="logo" />
@@ -71,7 +74,7 @@ function App() {
             <div id="register">
               <iframe
                 src="https://docs.google.com/forms/d/e/1FAIpQLSfbuNSGpaRTpkLwSWF7n8I0cjTg8bC6SEy1AS6VD2Q3bu6RKQ/viewform?embedded=true"
-                width="640"
+                width={getIFrameWidth()}
                 height="995"
                 frameborder="0"
                 marginheight="0"
