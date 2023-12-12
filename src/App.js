@@ -25,31 +25,29 @@ function App() {
         <div className="section content">
           <div className="content">
             <p className="description">
-              Code + Design with Probus is designed to provide participants with
-              the basic skillsets needed to get started in tech.
+            🚀 Elevate Your Skills with React Training by Probus Technologies in Partnership with <a href="https://ibadantechub.com.ng/" target="_blank" rel="noreferrer">Ibadan Tech Hub!</a> 
             </p>
             <p className="description">
-              Our mission is simple: to make opportunity for as many Nigerians
-              as possible by training and empowering them with design and coding
-              skills. The trainings are done online and are 100% free.
+            Join us for an immersive and comprehensive React training course designed to equip you with the latest skills and insights into this powerful JavaScript library. Whether you're a beginner or an experienced developer, this course will take your expertise to new heights.
             </p>
             <p className="description">
-              Code + Design with Probus is an initiative of{" "}
-              <a
-                href="https://www.probusinnovations.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Probus Technologies
-              </a>
-              .
+            📅 <b>Training Starts:</b> January 27th, 2024
             </p>
             <h4>
               <a href="#register">Register Now {">"}</a>
             </h4>
-            <h3>Who should apply?</h3>
+            <h3>Course Details:</h3>
+            <ul>
+              <li><b>Cost:</b> NGN 120,000</li>
+              <li><b>Early Bird Registration (Available until January 7th, 2024):</b> NGN 100,000</li>
+              <li><b>Late Registration (After January 7th, 2024):</b> NGN 120,000</li>
+            </ul>
+            <p className="description"><b>
+            Seize the opportunity to register early and save NGN 20,000!</b>
+            </p>
+            {/* <h3>Who should apply?</h3> */}
             <p className="description">
-              Anybody with a keen interest in starting a career in tech.
+            This training program is a collaboration between Probus Technologies and Ibadan Tech Hub, bringing you top-notch education and industry insights directly from experts in the field.
             </p>
             <p className="description">
               This training is for beginners, advanced learners are also
@@ -60,20 +58,18 @@ function App() {
               propel you to want to learn more advanced concepts and become a
               good designer or developer.
             </p>
-            <h3>Course available in the training</h3>
-            <ul>
-              <li>Website Design</li>
-              <li>Laravel</li>
-              <li>Flutter</li>
-              <li>React Native</li>
-              <li>UI/UX</li>
-              <li>Graphic Design</li>
-            </ul>
+            <p className="description">
+              Register now to secure your spot and advance your React skills. Limited seats available!
+            </p>
 
-            <h3>Register below to get started</h3>
-            <div id="register">
+            <h3 id="register">Register below to get started</h3>
+            <p className="description">
+              To fully secure your spot after filling the form. Click on the link to pay via <br />flutterwave - <strong><a href="https://flutterwave.com/pay/ibth-react-dev">PAY NOW</a></strong>
+            </p>
+            <small>Make sure to use the same name and email address added in the form when making payments</small>
+            <div>
               <iframe
-                src="https://docs.google.com/forms/d/e/1FAIpQLSfbuNSGpaRTpkLwSWF7n8I0cjTg8bC6SEy1AS6VD2Q3bu6RKQ/viewform?embedded=true"
+                src="https://docs.google.com/forms/d/e/1FAIpQLSfuRCUhqy3opJMjopTI0xQpY09JBkXXCMT9DyhCQ8_DkaFlGQ/viewform?embedded=true"
                 width={getIFrameWidth()}
                 height="995"
                 frameborder="0"
@@ -86,6 +82,14 @@ function App() {
                 Loading…
               </iframe>
             </div>
+            
+
+            <p className="description">
+              Don't miss out on this chance to expand your knowledge and thrive in the world of React development!
+            </p>
+            <p className="description">
+            For inquiries, contact us at <b>+234 816 0438 614</b>.
+            </p>
           </div>
         </div>
       </div>

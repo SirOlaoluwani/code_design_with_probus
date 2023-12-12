@@ -24,9 +24,15 @@
 
 .section.side {
   width: 30%;
-  background: url("./assets/bg-2.jpg");
+  background: url("./assets/laptop-1839876_1280.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+.section.side.row {
+  display: flex;
+  flex-direction: row;
 }
 
 @media screen and (max-width: 800px) {
@@ -49,11 +55,21 @@
 }
 
 .logo {
-  background: url("./assets/code_design_logo.svg");
+  background: url("./assets/probus_logo.svg");
   height: 100px;
-  width: 100px;
+  width: 300px;
   background-size: contain;
   background-repeat: no-repeat;
+  margin-right: 16px;
+}
+
+.logo.ibth {
+  background: url('./assets/cropped-Ibadan-Tech-Hub-Logo.png');
+  height: 100px;
+  width: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
 }
 
 .mobile-header {
