@@ -91,6 +91,10 @@ function App() {
             <p className="description">
             For inquiries, contact us at <b>+234 816 0438 614</b>.
             </p>
+
+            <p>Explore a World of Learning Opportunities at <a href="https://ibadantechub.com.ng/" target="_blank" rel="noreferrer">Ibadan Tech Hub!</a> </p>
+            <p>Click below to embark on a journey of continuous learning and discover the wealth of knowledge awaiting you. Expand your horizons with our range of expert-led workshops, seminars, and immersive training experiences.</p>
+            <b><a href="http://bit.ly/ibth-training" target="_blank" rel="noreferrer">&rarr; Explore More Trainings</a></b>
           </div>
         </div>
       </div>
