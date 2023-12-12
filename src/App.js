@@ -78,6 +78,7 @@ function App() {
                 hspace="0"
                 vspace="0"
                 className="iframe"
+                title="Registration Form" 
               >
                 Loading…
               </iframe>
