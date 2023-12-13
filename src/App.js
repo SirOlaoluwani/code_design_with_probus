@@ -25,7 +25,7 @@ function App() {
         <div className="section content">
           <div className="content">
             <p className="description">
-            🚀 Elevate Your Skills with React Training by Probus Technologies in Partnership with <a href="https://ibadantechub.com.ng/" target="_blank" rel="noreferrer">Ibadan Tech Hub!</a> 
+            🚀 Elevate Your Skills with React Training by Probus Technologies in Partnership with <a href="https://ibadantechub.com.ng" target="_blank" rel="noreferrer">Ibadan Tech Hub!</a> 
             </p>
             <p className="description">
             Join us for an immersive and comprehensive React training course designed to equip you with the latest skills and insights into this powerful JavaScript library. Whether you're a beginner or an experienced developer, this course will take your expertise to new heights.
